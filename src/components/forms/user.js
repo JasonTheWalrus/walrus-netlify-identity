@@ -44,6 +44,7 @@ export default class UserForm extends Component {
                 autocapitalize="off"
                 required
                 oninput={this.handleInput}
+                maxlength={127}
               />
               <div className="inputFieldIcon inputFieldName" />
             </label>
